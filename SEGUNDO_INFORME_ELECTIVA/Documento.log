@@ -1,0 +1,577 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.1)  15 APR 2020 17:56
+entering extended mode
+**./Documento.tex
+(Documento.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-02-25> (IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen134
+\@IEEEtrantmpdimenB=\dimen135
+\@IEEEtrantmpdimenC=\dimen136
+\@IEEEtrantmpcountA=\count167
+\@IEEEtrantmpcountB=\count168
+\@IEEEtrantmpcountC=\count169
+\@IEEEtrantmptoksA=\toks15
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen137
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen138
+\CLASSINFOnormalsizeunitybaselineskip=\dimen139
+\IEEEnormaljot=\dimen140
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen141
+\IEEEquantizedlengthdiff=\dimen142
+\IEEEquantizedtextheightdiff=\dimen143
+\IEEEilabelindentA=\dimen144
+\IEEEilabelindentB=\dimen145
+\IEEEilabelindent=\dimen146
+\IEEEelabelindent=\dimen147
+\IEEEdlabelindent=\dimen148
+\IEEElabelindent=\dimen149
+\IEEEiednormlabelsep=\dimen150
+\IEEEiedmathlabelsep=\dimen151
+\IEEEiedtopsep=\skip47
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@IEEEsubequation=\count174
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count175
+\c@table=\count176
+\@IEEEeqnnumcols=\count177
+\@IEEEeqncolcnt=\count178
+\@IEEEsubeqnnumrollback=\count179
+\@IEEEquantizeheightA=\dimen152
+\@IEEEquantizeheightB=\dimen153
+\@IEEEquantizeheightC=\dimen154
+\@IEEEquantizeprevdepth=\dimen155
+\@IEEEquantizemultiple=\count180
+\@IEEEquantizeboxA=\box45
+\@IEEEtmpitemindent=\dimen156
+\IEEEPARstartletwidth=\dimen157
+\c@IEEEbiography=\count181
+\@IEEEtranrubishbin=\box46
+) (Packages.tex
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\latin1.def"
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+))
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithms\algorit
+hmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+\c@ALC@unique=\count182
+\c@ALC@line=\count183
+\c@ALC@rem=\count184
+\c@ALC@depth=\count185
+\ALC@tlm=\skip50
+\algorithmicindent=\skip51
+))
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
+d-pdfmode.def"
+File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count186
+\l__pdf_internal_box=\box47
+) (Documento.aux)
+\openout1 = `Documento.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+-- Lines per column: 56 (exact).
+
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count187
+\scratchdimen=\dimen160
+\scratchbox=\box48
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen161
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks20
+)
+("C:\Users\pipe_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
+pdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+) (Titulo.tex)
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.69997> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.5> on input line 9.
+ (Resumen.tex) (Introduccion.tex) (MarcoTeorico.tex
+<../../Downloads/MPU6050.jpeg, id=1, 1284.8pt x 963.6pt>
+File: ../../Downloads/MPU6050.jpeg Graphic file (type jpg)
+<use ../../Downloads/MPU6050.jpeg>
+Package pdftex.def Info: ../../Downloads/MPU6050.jpeg  used on input line 13.
+(pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
+
+
+LaTeX Warning: Citation `amarante2008questao' on page  undefined on input line 
+13.
+
+
+Overfull \hbox (14.95544pt too wide) in paragraph at lines 13--14
+[][]
+ []
+
+<../../Downloads/NUCLEOF411RE.jpeg, id=2, 1284.8pt x 963.6pt>
+File: ../../Downloads/NUCLEOF411RE.jpeg Graphic file (type jpg)
+<use ../../Downloads/NUCLEOF411RE.jpeg>
+Package pdftex.def Info: ../../Downloads/NUCLEOF411RE.jpeg  used on input line 
+19.
+(pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
+
+LaTeX Warning: Citation `amarante2008questao' on page  undefined on input line 
+19.
+
+
+Overfull \hbox (14.95544pt too wide) in paragraph at lines 19--20
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/pipe_/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <../../Downloads/MPU6050.jpeg>]
+<../../Downloads/PC.jpeg, id=11, 1284.8pt x 963.6pt>
+File: ../../Downloads/PC.jpeg Graphic file (type jpg)
+<use ../../Downloads/PC.jpeg>
+Package pdftex.def Info: ../../Downloads/PC.jpeg  used on input line 25.
+(pdftex.def)             Requested size: 231.25401pt x 173.4405pt.
+
+
+LaTeX Warning: Citation `amarante2008questao' on page  undefined on input line 
+25.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[][]
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.34 1Z_
+        q4SNt6_mHB1RLBcFIv_
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 34.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.37 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+[]\OT1/ptm/m/n/10 https://drive.google.com/file/d/
+ []
+
+
+Overfull \hbox (17.0375pt too wide) in paragraph at lines 42--44
+[]\OT1/ptm/m/n/10 https://drive.google.com/file/d/1LdlBcjZGbrdfhYsP65o36baeUx
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 48--49
+[]\OT1/ptm/m/n/10 A con-tin-uaci[]on pode-mos en-con-trar la pro-gra-maci[]on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Overfull \hbox (61.76648pt too wide) in paragraph at lines 54--69
+\OT1/ptm/m/n/10 s = se-rial('COM5','BaudRate',9600,'DataBits',8,'Parity','None'
+,'StopBits',1); 
+ []
+
+
+Overfull \hbox (61.76648pt too wide) in paragraph at lines 54--69
+\OT1/ptm/m/n/10 s = se-rial('COM5','BaudRate',9600,'DataBits',8,'Parity','None'
+,'StopBits',1); 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--69
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.70 SENSITIVITY_
+                 ACCEL = 2.0/32768.0;\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.78 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--93
+
+ []
+
+[2 <../../Downloads/NUCLEOF411RE.jpeg> <../../Downloads/PC.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.112 plot(t, values(:,3)*SENSITIVITY_
+                                      ACCEL, 'b')\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.120 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (62.30411pt too wide) in paragraph at lines 111--120
+\OML/cmm/m/it/10 legend\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ax[];[] ay[];[] az[]
+;[] Location[];[] northeast[];[] orientation[];[] horizontal[]\OT1/cmr/m/n/10 )
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--120
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.123 plot(t, (values(:,3)-offset_
+                                  accelx)*SENSITIVITY_ACCEL, 'b')\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.131 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--131
+\OT1/ptm/m/n/10 plot(t, (values(:,3)-offset$[]\OML/cmm/m/it/10 ccelx\OT1/cmr/m/
+n/10 ) \OMS/cmsy/m/n/10 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--131
+\OML/cmm/m/it/10 plot\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; \OT1/cmr/m/n/10 (\OML
+/cmm/m/it/10 values\OT1/cmr/m/n/10 (:\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4) \OMS
+/cmsy/m/n/10   \OML/cmm/m/it/10 offset[]ccely\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--131
+\OML/cmm/m/it/10 plot\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; \OT1/cmr/m/n/10 (\OML
+/cmm/m/it/10 values\OT1/cmr/m/n/10 (:\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 5) \OMS
+/cmsy/m/n/10   \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 offset[]ccelz \OMS/cmsy/m/n/10
+   \OT1/cmr/m/n/10 (32768\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 2))) \OMS/cmsy/m/n/1
+0 
+ []
+
+
+Overfull \hbox (62.30411pt too wide) in paragraph at lines 122--131
+\OML/cmm/m/it/10 legend\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ax[];[] ay[];[] az[]
+;[] Location[];[] northeast[];[] orientation[];[] horizontal[]\OT1/cmr/m/n/10 )
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--131
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.134 plot(t, values(:,6)*SENSITIVITY_
+                                      GYRO, 'b')\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.142 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (61.83183pt too wide) in paragraph at lines 133--142
+\OML/cmm/m/it/10 legend\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 gx[];[] gy[];[] gz[]
+;[] Location[];[] northeast[];[] orientation[];[] horizontal[]\OT1/cmr/m/n/10 )
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--142
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.144 plot(t, (values(:,6)-offset_
+                                  gyrox)*SENSITIVITY_GYRO, 'b')\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.152 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--152
+\OT1/ptm/m/n/10 plot(t, (values(:,6)-offset$[]\OML/cmm/m/it/10 yrox\OT1/cmr/m/n
+/10 ) \OMS/cmsy/m/n/10 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--152
+\OML/cmm/m/it/10 plot\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; \OT1/cmr/m/n/10 (\OML
+/cmm/m/it/10 values\OT1/cmr/m/n/10 (:\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 7) \OMS
+/cmsy/m/n/10   \OML/cmm/m/it/10 offset[]yroy\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--152
+\OML/cmm/m/it/10 plot\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; \OT1/cmr/m/n/10 (\OML
+/cmm/m/it/10 values\OT1/cmr/m/n/10 (:\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8) \OMS
+/cmsy/m/n/10   \OML/cmm/m/it/10 offset[]yroz\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 
+
+ []
+
+
+Overfull \hbox (61.83183pt too wide) in paragraph at lines 143--152
+\OML/cmm/m/it/10 legend\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 gx[];[] gy[];[] gz[]
+;[] Location[];[] northeast[];[] orientation[];[] horizontal[]\OT1/cmr/m/n/10 )
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--152
+
+ []
+
+) (Resultados.tex) (Analisis.tex) (Conclusiones.tex)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[3] (Documento.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2222 strings out of 481311
+ 38243 string characters out of 2908124
+ 281483 words of memory out of 3000000
+ 17713 multiletter control sequences out of 15000+200000
+ 566225 words of font info for 81 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,10n,25p,618b,279s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/pipe_/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Users/pipe_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><C:/Users/pipe_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb><C:/Users/pipe_/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/pipe_/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pipe_/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/pipe_/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pi
+pe_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Use
+rs/pipe_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:
+/Users/pipe_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on Documento.pdf (3 pages, 591969 bytes).
+PDF statistics:
+ 52 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

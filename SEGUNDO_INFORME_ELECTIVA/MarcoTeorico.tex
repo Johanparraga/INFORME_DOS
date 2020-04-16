@@ -1,0 +1,154 @@
+\section{Marco Teórico} \label{sec:marcoteorico}
+
+Como medio de adquisición de datos se uso la tarjeta STM NUCLEO411R la cual se encargo realizar la tarea de adquisicion de datos enviados por la MPU a traves de comunicacion i2c y enviar estos datos por media de una comunicacion Asíncrona por puerto serial a la computadora, estos datos fueron recibidos en la computadora por la aplicación Matlab la cual fue la encargada de realizar el procesamiento de los datos con el cual se grafican los datos y se puede observar un comportamiento frente a los datos después de ser calibrados correctamente.
+
+\subsection{Elementos Utilizados}
+Se utilizo cuatro elementos físicos para la realización de la practica 
+
+
+\subsubsection{MPU6050}
+
+EL MPU6050 es una unidad de medición inercial o IMU (Inertial Measurment Units) de 6 grados de libertad (DoF) pues combina un acelerómetro de 3 ejes y un giroscopio de 3 ejes. Este sensor es muy utilizado en navegación, goniometría, estabilización, etc.\
+
+\includegraphics[scale=0.2]{../../Downloads/MPU6050.jpeg} \cite{amarante2008questao}
+
+\subsubsection{NUCLEOF411RE}
+
+La tarjeta de desarrollo STM32 provee una solución accesible y flexible para el desarrollo de prototipos y nuevas ideas bajo una plataforma ARM Cortex-M4 de ST y la plataforma mbed ARM. La tarjeta se diseño bajo características tanto en el microcontrolador como en sus componentes de un sistema balanceado en potencia de procesamiento con un consumo de energía limitado. La tarjeta es compatible en pines con un Arduino y con ST Morpho.\
+
+\includegraphics[scale=0.2]{../../Downloads/NUCLEOF411RE.jpeg} \cite{amarante2008questao}
+
+\subsubsection{Computadora Portátil}
+
+computadora portátil de peso y tamaño ligero, su tamaño es aproximado al de un portafolio (hay más pequeñas como Palmtop y Handheld). Ésta pertenece al grupo de las computadoras personales, las cuales son sistemas de computación relativamente pequeños y de bajo costo, también llamados microprocesadores.\
+
+\includegraphics[scale=0.18]{../../Downloads/PC.jpeg} \cite{amarante2008questao}\
+ 
+\subsubsection{Programación utilizada}
+
+La programación utilizada fue brindada por el docente de la clase Prof. Msc. Fabián Barrera Prieto.
+Primero utilizamos un programa de calibracion mediante la cual adquirimos dos muestras de 100 datos de las cuales la primera muestra es descartada como dato estadístico, de la segunda muestra de datos son tomados para analisiz y obtener los datos de interés para la practica los cuales son los offset en cada uno de los ejes de los dos sensores, estos datos son obtenidos a través de condicionales aplicadas a los puntos máximos y mínimos de los valores de cada uno de los ejes, estos valores son promediados para obtener un offset por cada eje.
+A continuación podemos encontrar el link al código utilizado para la calibración :
+
+https://drive.google.com/file/d/
+1Z_q4SNt6_mHB1RLBcFIv_
+cTe6h7G8vUV
+/view
+
+Para la parte de lectura de datos utilizamos un codigo en el cual se realizaba la lectura del puerto i2c de la tarjeta NUCLEO, esta programación realiza la lectura cuando a través del puerto serial recibe un carácter 'H', posteriormente  escribimos al registro 3B de la IMU, después realizamos la lectura de la IMU a través de i2c de 14 Bytes y almacenando los datos recibidos en un vector de 14 posiciones,luego de recolectados estos datos son enviados a través de el puerto serial a la computadora.
+
+A continuación podemos encontrar el link al código utilizado para la calibración :
+
+https://drive.google.com/file/d/1LdlBcjZGbrdfhYsP65o36baeUx
+7m4zoM/view
+
+Para el procesamiento de datos utilizamos Matlab 
+mediante este procesamiento realizamos una lectura de los datos enviados por la STM411R, estos datos son calibrados y mostrados a través de gráficas de los valores de los ejes sin calibrar y calibrados 
+
+A continuación podemos encontrar la programación utilizada en Matlab:\\\
+
+close all;\\
+clear all;\\
+clc;\
+
+oldobj = instrfind;\\
+if not(isempty(oldobj))\\
+    fclose(oldobj);\\
+    delete (oldobj);\\
+end
+\\
+if ~exist('s','var')\\
+    s = serial('COM5','BaudRate',9600,'DataBits',8,'Parity','None','StopBits',1);\\
+end\\
+if ~isvalid(s)\\
+    s = serial('COM5','BaudRate',9600,'DataBits',8,'Parity','None','StopBits',1);\\
+end\\
+if strcmp(get(s, 'status'),'closed')\\
+    fopen(s);\\
+end\\
+
+SENSITIVITY_ACCEL = 2.0/32768.0;\\
+SENSITIVITY_GYRO = 250.0/32768.0;\\
+offset_accelx = 120.00;\\
+offset_accely = 68.00;\\
+offset_accelz = 16932.00;\\
+offset_gyrox = 4053.00;\\
+offset_gyroy = 111.00;\\
+offset_gyroz = -124.00;\\
+
+disp('En sus marcas. Posicione el sensor en la posicion inicial')\\
+pause();\\
+
+disp('comienza')\\
+fprintf(s, 'H');\\
+i = 1;\\
+while(1)\\
+    str{i} = fscanf(s);\\
+    if(str{i}(1) == 'A')\\
+        disp('termina')\\
+        break;\\
+    end\\
+    i = i + 1;\\
+end\\
+
+fclose(s);\\
+n = length(str)-1;\\
+c = 1;\\
+
+for i=1:n\\
+    temp = cellfun(@str2num,strsplit(str{i},','));\\
+    if nume1(temp) == 8\\
+        values(i,:) = temp;\\
+    end\\
+end\\
+
+save DadosTest1 values\\
+
+Nsamples  = length(values);\\
+dt = 0.01;\\
+t = 0:dt:Nsamples*dt-dt;\\
+
+figure;\\
+plot(t, values(:,3)*SENSITIVITY_ACCEL, 'b')\\
+hold on\\
+plot(t, values(:,4)*SENSITIVITY_ACCEL, 'r')\\
+plot(t, values(:,5)*SENSITIVITY_ACCEL, 'g')\\
+title('Acelerometro sin calibrar')\\
+xlabel('Tiempo (segundos)')\\
+ylabel('aceleracion (g)')\\
+legend('ax', 'ay', 'az', 'Location','northeast', 'orientation','horizontal')\\
+
+
+figure;\\
+plot(t, (values(:,3)-offset_accelx)*SENSITIVITY_ACCEL, 'b')\\
+hold on\\
+plot(t, (values(:,4)-offset_accely)*SENSITIVITY_ACCEL, 'r')\\
+plot(t, (values(:,5)-(offset_accelz-(32768/2)))*SENSITIVITY_ACCEL,'g')\\
+title('Acelerometro calibrado')\\
+xlabel('Tiempo (segundos)')\\
+ylabel('aceleracion (g)')\\
+legend('ax', 'ay', 'az', 'Location','northeast', 'orientation','horizontal')\\
+
+
+figure;\\
+plot(t, values(:,6)*SENSITIVITY_GYRO, 'b')\\
+hold on\\
+plot(t, values(:,7)*SENSITIVITY_GYRO, 'r')\\
+plot(t, values(:,8)*SENSITIVITY_GYRO, 'g')\\
+title('Giroscopio sin calibrar')\\
+xlabel('Tiempo (segundos)')\\
+ylabel('velocidad angular')\\
+legend('gx', 'gy', 'gz', 'Location','northeast', 'orientation','horizontal')\\
+
+figure;\\
+plot(t, (values(:,6)-offset_gyrox)*SENSITIVITY_GYRO, 'b')\\
+hold on\\
+plot(t, (values(:,7)-offset_gyroy)*SENSITIVITY_GYRO, 'r')\\
+plot(t, (values(:,8)-offset_gyroz)*SENSITIVITY_GYRO, 'g')\\
+title('Giroscopio calibrado')\\
+xlabel('Tiempo (segundos)')\\
+ylabel('velocidad angular')\\
+legend('gx', 'gy', 'gz', 'Location','northeast', 'orientation','horizontal')\\
+
+
+
